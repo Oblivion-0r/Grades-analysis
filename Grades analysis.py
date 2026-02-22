@@ -21,8 +21,9 @@ for line in grades:
         ok += 1
     elif grades == 2:
         bad += 1
-print('Средний балл:', (5*great + 4*good + 3*ok + 2*bad) / (great + good + ok + bad))
-print('Максимальная оценка:', max_grade)
-print('Минимальная оценка:', min_grade)
-print(bad, "Двоек")
+print('Average grade:', (5*great + 4*good + 3*ok + 2*bad) / (great + good + ok + bad))
+print('Maximum grade:', max_grade)
+print('Minimum grade:', min_grade)
+print(bad, "bad grades")
+
 
